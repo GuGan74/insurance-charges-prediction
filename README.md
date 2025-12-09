@@ -36,6 +36,5 @@ jupyter notebook
 - `insurance_xgb_model.pkl` — saved model  
 - `requirements.txt` — dependencies
 
-- <img width="664" height="866" alt="image" src="https://github.com/user-attachments/assets/529f467a-70e2-4409-97ed-56eead6c56ea" />
 
 
