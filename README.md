@@ -1,40 +1,81 @@
 # Insurance Charges Prediction (Regression)
 
-This project predicts medical insurance charges using Machine Learning models such as Linear Regression, Ridge, Lasso, Random Forest, and XGBoost.  
-XGBoost achieved the best performance with an R² score of **0.867**.
+Machine Learning project to predict medical insurance charges using regression algorithms.
+The workflow includes EDA, feature engineering, preprocessing pipelines, model training, hyperparameter tuning, and model deployment readiness.
 
-## Contents
-- Exploratory Data Analysis (EDA)
-- <img width="664" height="866" alt="image" src="https://github.com/user-attachments/assets/529f467a-70e2-4409-97ed-56eead6c56ea" />
-<img width="664" height="866" alt="image" src="https://github.com/user-attachments/assets/5c6820b7-e5c9-4edc-9614-c1de44371f31" />
-<img width="664" height="866" alt="image" src="https://github.com/user-attachments/assets/bab3cabf-e130-4f81-814d-aab9a7aa614f" />
+##Summary 
+| Metric       | Score     |
+| ------------ | --------- |
+| **MAE**      | 2576      |
+| **RMSE**     | 4546      |
+| **R² Score** | **0.867** |
 
+##📂 Project Structure
+insurance-charges-prediction/
+│
+├── data/
+│   └── insurance_dataset.csv
+│
+├── notebooks/
+│   └── insurance_analysis.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── train_models.py
+│   └── evaluate.py
+│
+├── insurance_xgb_model.pkl
+├── requirements.txt
+└── README.md
 
-- Feature Engineering
-- Preprocessing Pipeline (OneHotEncoder + StandardScaler)
-- <img width="664" height="866" alt="image" src="https://github.com/user-attachments/assets/8aa989ee-c985-4467-90f4-7e48f26e7643" />
+##🔍 Exploratory Data Analysis (EDA) 
+- Age, BMI, children distribution analysis
+- Charges distribution skewness
+- Categorical variable visualizations
+- Correlation matrix analysis
 
-- Model Training and Evaluation
-- Hyperparameter Tuning (GridSearchCV)
-- Feature Importance
-- Model Saving (`insurance_xgb_model.pkl`)
-- Jupyter Notebook
+## ⚙️ Features & Preprocessing
 
-## Best Model Performance (XGBoost)
-- **MAE:** 2576  
-- **RMSE:** 4546  
-- **R²:** 0.867  
+-OneHotEncoding for categorical variables (sex, smoker, region)
+-Standard scaling for numerical features
+- Pipeline used to avoid data leakage
 
-## How to Run
+##🧪 Models Trained
+1. Linear Regression
+2. Ridge Regression
+3. Lasso Regression
+4. Random Forest Regressor
+5. XGBoost Regressor (Best)
+
+Hyperparameter tuning used:
+GridSearchCV
+Cross-validation (cv=5)
+
+##🚀 How to Run the Project
+
+1. Install dependencies
 pip install -r requirements.txt
+
+2. Launch Jupyter Notebook
 jupyter notebook
 
+3. Open:
+notebooks/insurance_analysis.ipynb
 
-## Files
-- `notebooks/insurance_analysis.ipynb` — full workflow  
-- `data/insurance.csv` — dataset  
-- `insurance_xgb_model.pkl` — saved model  
-- `requirements.txt` — dependencies
+##💾 Saved Model
+
+The trained XGBoost model is saved as:
+insurance_xgb_model.pkl
+This can be loaded using joblib or pickle.
+
+##📬 Contact
+
+Gugan S
+Machine Learning | Data Analysis | Software Development
+GitHub: https://github.com/GuGan74
+LinkedIn: https://linkedin.com/in/gugan-s-610446355
+
+
 
 
 
