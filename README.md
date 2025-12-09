@@ -3,6 +3,8 @@
 Machine Learning project to predict medical insurance charges using regression algorithms.
 The workflow includes EDA, feature engineering, preprocessing pipelines, model training, hyperparameter tuning, and model deployment readiness.
 
+
+
 ##Summary 
 | Metric       | Score     |
 | ------------ | --------- |
@@ -33,12 +35,18 @@ insurance-charges-prediction/
 - Charges distribution skewness
 - Categorical variable visualizations
 - Correlation matrix analysis
+- <img width="702" height="956" alt="image" src="https://github.com/user-attachments/assets/86525430-619d-41f1-a34a-e076d5d2b1c9" />
+- <img width="702" height="956" alt="image" src="https://github.com/user-attachments/assets/465fde29-a8da-47d6-b249-7d863dec1b58" />
+- <img width="702" height="956" alt="image" src="https://github.com/user-attachments/assets/04e61771-a87b-4e30-bd94-44e1782753d0" />
+
 
 ## ⚙️ Features & Preprocessing
 
 -OneHotEncoding for categorical variables (sex, smoker, region)
 -Standard scaling for numerical features
 - Pipeline used to avoid data leakage
+- <img width="702" height="956" alt="image" src="https://github.com/user-attachments/assets/f4ce1a78-54ba-41f6-942e-46dc6c935626" />
+
 
 ##🧪 Models Trained
 1. Linear Regression
@@ -71,9 +79,9 @@ This can be loaded using joblib or pickle.
 ##📬 Contact
 
 Gugan S
-Machine Learning | Data Analysis | Software Development
-GitHub: https://github.com/GuGan74
-LinkedIn: https://linkedin.com/in/gugan-s-610446355
+-Machine Learning | Data Analysis | Software Development
+-GitHub: https://github.com/GuGan74
+-LinkedIn: https://linkedin.com/in/gugan-s-610446355
 
 
 
