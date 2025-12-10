@@ -5,14 +5,15 @@ The workflow includes EDA, feature engineering, preprocessing pipelines, model t
 
 
 
-##Summary 
+#Summary 
 | Metric       | Score     |
 | ------------ | --------- |
 | **MAE**      | 2576      |
 | **RMSE**     | 4546      |
 | **R² Score** | **0.867** |
 
-##📂 Project Structure
+#📂 Project Structure
+
 insurance-charges-prediction/
 │
 ├── data/
